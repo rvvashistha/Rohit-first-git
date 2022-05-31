@@ -6,7 +6,7 @@ public class Employee {
 
 		int empId;
 		String empName;
-		String empAddress;		
+		String empAddress;		 
 		String empFirstName;
 		String empLastName;
 		
