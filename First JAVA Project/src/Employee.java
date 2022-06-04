@@ -10,6 +10,7 @@ public class Employee {
 		String empFirstName;
 		String empLastName;
 		
+		// method for display
 		public void displayEmpData() {
 		System.out.println("employee ID is: "+empId);
 		System.out.println("employee name is: "+empName);	
