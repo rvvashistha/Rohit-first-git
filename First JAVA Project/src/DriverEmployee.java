@@ -15,13 +15,13 @@ public class DriverEmployee {
 		emp1.displayEmpData();
         
 		Employee emp2= new Employee();
-		emp1.empId=124;
-		emp1.empName="rahul";
-		emp1.empAddress="delhi";
-		emp1.empFirstName="rahul";
-		emp1.empLastName="kumar";
-		
- System.out.println("hello");
+		emp2.empId=124;
+		emp2.empName="rahul";
+		emp2.empAddress="delhi";
+		emp2.empFirstName="rahul";
+		emp2.empLastName="kumar";
+		emp2.displayEmpData();
+ //System.out.println("hello");
 	}
 
 }

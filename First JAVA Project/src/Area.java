@@ -2,7 +2,8 @@ public class Area {
  long radius;
  final double pi=3.14;
    double totalarea;
-void area(int r) {
+//method to calculate area
+   void area(int r) {
 	radius=r;
 	totalarea=pi*radius*radius;
 	System.out.println(totalarea);
@@ -10,10 +11,10 @@ void area(int r) {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	Area ar=new Area();
-	ar.area(231654445);
+	ar.area(1233445656);
 		
 		
 
-	}
+ 	}
 
 }
