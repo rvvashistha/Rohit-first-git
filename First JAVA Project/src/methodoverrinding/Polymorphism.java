@@ -8,7 +8,7 @@ public class Polymorphism {
 	}
  int ar2;
 	void findArea(int l,int b,int h) {
-		ar2=l*b*h;
+		ar2=2*(l*b+b*h+h*l);
 		System.out.println("area of rectangular cuboid is: "+ar2);
 		}
 }

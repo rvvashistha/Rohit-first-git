@@ -6,7 +6,7 @@ public class Polymorphismmain {
 		// TODO Auto-generated method stub
 		Polymorphism poly=new Polymorphism();
 		poly.findArea(2, 2);
-		poly.findArea(354649846, 2, 3);
+		poly.findArea(1, 2, 3);
 	}
 
 }
