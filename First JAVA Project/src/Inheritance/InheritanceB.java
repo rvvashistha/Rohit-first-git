@@ -6,7 +6,7 @@ public class InheritanceB extends InheritanceA {
 	int b;
 	
 	
-	void calrectangleArea() {
+	void calrectangleArea(int l, int b) {
 		rectangleArea=l*b;
 		System.out.println("area of the rectangle is: "+rectangleArea);
 	}

@@ -6,7 +6,7 @@ public class InheritanceC extends InheritanceB{
 	int h;
 	
 	
-	void caltriangleArea(int b,int h) {
+	void caltriangleArea(int b, int h) {
 		triangleArea=(b*h)/2;
 		System.out.println("area of the triangle is: "+triangleArea);
 	}
@@ -14,9 +14,9 @@ public class InheritanceC extends InheritanceB{
 		// TODO Auto-generated method stub
 	
 		InheritanceC obj=new InheritanceC();
-		obj.calcircleArea();
-		obj.calrectangleArea();
-		obj. caltriangleArea(20,20);
+		obj.calcircleArea(500000000);
+		obj.calrectangleArea(20000,200000);
+		obj. caltriangleArea(20000,200000);
 		
 
 	
