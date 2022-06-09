@@ -4,7 +4,7 @@ public class AccountDetails extends CurrentAccount {
 	int depositAmount;
 	int withdrawalAmount;
 	AccountDetails(String a, int b, int c,int d,int e) {
-		super(a, b, c);
+	    super(a, b, c);
 		d=depositAmount;
 		e=withdrawalAmount;
 
@@ -18,7 +18,7 @@ public class AccountDetails extends CurrentAccount {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		AccountDetails obj=new AccountDetails("rohit",123,456,789,112);
+		AccountDetails obj=new AccountDetails("rohit kumar vashistha",121,1313123,131312,123123);
 		obj.display();
 }
 }
