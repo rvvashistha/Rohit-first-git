@@ -1,11 +1,11 @@
 package Abstraction;
 
 public class AccountDetails extends CurrentAccount {
-	int depositAmount;
+	 private int depositAmount;
 	int withdrawalAmount;
 	AccountDetails(String a, int b, int c,int d,int e) {
 	    super(a, b, c);
-		this.depositAmount=d;
+        this.depositAmount=d;
 		this.withdrawalAmount=e;
 
 	}
@@ -18,7 +18,7 @@ public class AccountDetails extends CurrentAccount {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		AccountDetails obj=new AccountDetails("rohit kumar vashistha",121,1313123,131312,123123);
+		AccountDetails obj=new AccountDetails("rohit kumar vashistha",121,1313123,1313120000,1231230000);
 		obj.display();
 }
 }
