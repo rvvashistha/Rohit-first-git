@@ -5,7 +5,7 @@ package Abstraction;
 	 
 	CurrentAccount(String a, int b,int c) {
 		super(a, b);
-		c=currentBalance;
+		this.currentBalance=c;
 		
 	}
 	void display() {

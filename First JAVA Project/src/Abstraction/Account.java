@@ -4,8 +4,8 @@ public class Account {
 	String customerName;
 	int accountNo;
 	Account(String a,int b){
-		a=customerName;
-		b=accountNo;
+		this.customerName=a;
+		this.accountNo=b;
 		
 	}
 	void display() {

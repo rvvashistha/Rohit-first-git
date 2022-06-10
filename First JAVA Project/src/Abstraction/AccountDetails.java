@@ -5,8 +5,8 @@ public class AccountDetails extends CurrentAccount {
 	int withdrawalAmount;
 	AccountDetails(String a, int b, int c,int d,int e) {
 	    super(a, b, c);
-		d=depositAmount;
-		e=withdrawalAmount;
+		this.depositAmount=d;
+		this.withdrawalAmount=e;
 
 	}
 	void display() {
