@@ -8,7 +8,7 @@ public class Method {
 		return output;
 	
 	}      
-	
+	 
 	void performRightShift(){
 		
 	}
