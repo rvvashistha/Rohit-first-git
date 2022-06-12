@@ -7,7 +7,7 @@ public class Method {
 		output=num <<10;
 		return output;
 	
-	} 
+	}      
 	
 	void performRightShift(){
 		
