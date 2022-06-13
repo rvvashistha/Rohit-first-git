@@ -13,9 +13,10 @@ System.out.println("i like to read self help books ");
 long a=0; 
 long b=0;
 System.out.println("please provide integer you want to add :-  ");
-Scanner sc=new Scanner(System.in);
-a=sc.nextInt();
-b=sc.nextInt();
+try (Scanner sc = new Scanner(System.in)) {
+	a=sc.nextInt();
+	b=sc.nextInt();
+}
 System.out.println("your sum of two integer are :" +(a+b));
 
 
