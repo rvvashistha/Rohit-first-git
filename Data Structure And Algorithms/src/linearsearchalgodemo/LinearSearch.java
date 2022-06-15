@@ -24,6 +24,7 @@ public class LinearSearch {
 		int a=sc.nextInt();
 		int keyelement=a;
 		int position=linearSearch(arr, keyelement, size);
+		System.out.println("______________________________");
 		 if (position==-1) {
 			 System.out.println("the element not found!!!");
 		 }
