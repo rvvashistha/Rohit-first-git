@@ -22,14 +22,14 @@ public class LinearSearch {
 		System.out.println("please enter the interger whose index value you want to check  : ");
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
-		int keyelement=a;
-		int position=linearSearch(arr, keyelement, size);
+		int key=a;
+		int position=linearSearch(arr, key, size);
 		System.out.println("______________________________");
 		 if (position==-1) {
 			 System.out.println("the element not found!!!");
 		 }
 		 else {
-			 System.out.println("the element is found: "+keyelement+'\n'+"on the index number: "+position);
+			 System.out.println("the element is found: "+key+'\n'+"on the index number: "+position);
 		 }
 		
 		
