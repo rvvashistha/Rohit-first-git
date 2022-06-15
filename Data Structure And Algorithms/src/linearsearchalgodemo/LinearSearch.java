@@ -1,0 +1,35 @@
+package linearsearchalgodemo;
+
+public class LinearSearch { 
+	public static int linearSearch(int[] arr,int key,int size){
+		
+		for (int i =0; i<size;i++){
+			if (arr[i]==key) {
+				return i;
+				
+			}
+		
+		}
+		return -1;
+		
+	}
+	public static void main(String[] args) {
+		
+		int[]arr= {10,20,30,40,50,60,70,80,90,100};
+		int size=arr.length;
+		int keyelement=90;
+		int position=linearSearch(arr, keyelement, size);
+		 if (position==-1) {
+			 System.out.println("the element not found!!!");
+		 }
+		 else {
+			 System.out.println("the element is found: "+keyelement+'\n'+"on the index number: "+position);
+		 }
+		
+		
+	}
+	
+	
+	
+	
+}
