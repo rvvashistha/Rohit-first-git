@@ -1,5 +1,7 @@
 package linearsearchalgodemo;
 
+import java.util.Scanner;
+
 public class LinearSearch { 
 	public static int linearSearch(int[] arr,int key,int size){
 		
@@ -17,7 +19,10 @@ public class LinearSearch {
 		
 		int[]arr= {10,20,30,40,50,60,70,80,90,100};
 		int size=arr.length;
-		int keyelement=90;
+		System.out.println("please enter the interger whose index value you want to check  : ");
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int keyelement=a;
 		int position=linearSearch(arr, keyelement, size);
 		 if (position==-1) {
 			 System.out.println("the element not found!!!");
